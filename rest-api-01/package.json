@@ -1,0 +1,20 @@
+{
+  "name": "api_rest.__gb__",
+  "version": "1.0.0",
+  "description": "recursos:\r https://rcasalla.gitbooks.io/libro-desarrollo-de-software/content/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielBrufau/API_rest.__GB__.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielBrufau/API_rest.__GB__/issues"
+  },
+  "homepage": "https://github.com/GabrielBrufau/API_rest.__GB__#readme"
+}
