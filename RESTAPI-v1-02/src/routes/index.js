@@ -1,10 +1,9 @@
-const express = require('express');
-const landing_route = require('./landing_route');
+var express = require('express')
+var router = express.Router()
+var landing = require('./landing_route')
 
-router_api(app)={
-	const router = express.Router();
-	app.use("/api/v1",router);
-	router.use("/landing",landig_route);
-};
-
+function router_api(app){
+	app.use("/api/v1",router)
+	router.get('/', landing)
+}
 module.exports = router_api;
